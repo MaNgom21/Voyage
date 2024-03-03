@@ -31,7 +31,10 @@ nav ul {
   nav li {
     margin: 0 15px;
   }
-  
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica;
+}  
 footer
 {
     margin-top: 435px;
