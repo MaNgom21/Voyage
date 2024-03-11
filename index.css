@@ -138,3 +138,17 @@ footer {
     padding: initial;
     margin-bottom: 40px;
 }
+@keyframes Charge{
+    0%
+    {
+        background-image: url(img/monaco.jpg);
+    }
+    25%
+    {
+        background-image: url(img/Detroit.jpeg);
+    }
+    50%
+    {
+        background-image: url(img/télécharger\ \(6\).jpeg);
+    }
+}
