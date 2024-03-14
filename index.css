@@ -6,10 +6,14 @@
 }
 
 body {
+    background-image: url(img/img\ de\ fond5.jpeg);
+    background-position: center;
+    background-size: cover;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #222121;
     line-height: 1.6;
+    
 }
 
 header {
@@ -29,7 +33,7 @@ header p {
 }
 
 nav {
-    background-color: #444;
+    background-color: #222121;
 }
 
 nav ul {
@@ -103,7 +107,7 @@ main {
     padding: 10px;
     margin: 0;
     background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: #ffffff;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     text-align: center;
@@ -116,7 +120,7 @@ main {
 }
 
 h2, h3 {
-    color: #333;
+    color: #f9f8f8;
 }
 
 ul {
@@ -127,7 +131,7 @@ ul {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #0c0a0a;
     color: #fff;
     position: fixed;
     bottom: 0;
@@ -138,17 +142,14 @@ footer {
     padding: initial;
     margin-bottom: 40px;
 }
-@keyframes Charge{
-    0%
-    {
-        background-image: url(img/monaco.jpg);
+
+
+
+
+.gallery-item img{
+        width: 350px;
+        height: 500px;
+        
     }
-    25%
-    {
-        background-image: url(img/Detroit.jpeg);
-    }
-    50%
-    {
-        background-image: url(img/télécharger\ \(6\).jpeg);
-    }
-}
+    width: 350px;
+    height: 480px;
