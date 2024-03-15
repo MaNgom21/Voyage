@@ -151,5 +151,76 @@ footer {
         height: 500px;
         
     }
-    width: 350px;
-    height: 480px;
+    .city-card {
+        display: inline-block;
+        width: calc(20% - 20px); /* Ajuster la largeur en fonction du nombre de cartes */
+        margin: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .city-card:hover {
+        transform: translateY(-5px); /* Translation vers le haut au survol */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Augmentation de l'ombre au survol */
+    }
+
+    .city-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0; /* Coins arrondis seulement en haut */
+    }
+
+    .city-card h2 {
+        font-family: 'Libre Baskerville', serif;
+        padding: 20px 10px;
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+        color: #333;
+    }
+
+    /* Styles pour le footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px; /* Réduire la taille du padding */
+        transition: transform 0.3s ease-in-out; /* Ajout de la transition */
+    }
+
+    footer:hover {
+        transform: translateY(-3px); /* Translation vers le haut au survol */
+    }
+
+    footer h3 {
+        font-family: 'Inlander', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+        display: none; /* Par défaut, les détails sont masqués */
+    }
+
+    footer:hover ul {
+        display: block; /* Afficher les détails au survol du footer */
+    }
+
+    footer ul li {
+        margin-bottom: 5px;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer p {
+        margin: 5px 0; /* Réduire la marge */
+    
+
+    }
