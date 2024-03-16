@@ -6,19 +6,19 @@
 }
 
 body {
-    background-image: url(img/img\ de\ fond5.jpeg);
+    background-color: #ebea80;
     background-position: center;
     background-size: cover;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #0e0e0e;
+    background-color: #faf7f7;
+    color: #151414;
     line-height: 1.6;
     
 }
 
 header {
-    background-color: #141415;
-    color: #fdfafa ;
+    background-color: #121312;
+    color: #fbf7f7 ;
     text-align: center;
     padding: 20px 0;
 }
@@ -33,7 +33,7 @@ header p {
 }
 
 nav {
-    background-color: #080707;
+    background-color: #343232;
 }
 
 nav ul {
@@ -49,23 +49,23 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #f8f5f5;
+    color: #f9f8f8;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffd700; /* Change the color on hover */
+    color: #f9eda5; /* Change the color on hover */
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 20px auto;
-    padding: 20px;
-    background-color: #fcf8f8da;
+    padding: 50px;
+    background-color: #faf8faf4;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(248, 244, 244, 0.082);
+    box-shadow: 0 0 10px rgba(17, 2, 2, 0.992);
 }
 
 .welcome {
@@ -85,13 +85,13 @@ main {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(242, 241, 241, 0.953);
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -106,8 +106,8 @@ main {
     right: 0;
     padding: 10px;
     margin: 0;
-    background: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    background: rgba(7, 7, 11, 0.751);
+    color: #f9f3f3;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     text-align: center;
@@ -119,8 +119,11 @@ main {
     opacity: 1;
 }
 
-h2, h3 {
+h2 {
     color: #111111;
+}
+h3{
+    color: #faf6f6;
 }
 
 ul {
@@ -131,8 +134,8 @@ ul {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #0c0a0a;
-    color: #fff;
+    background-color: #fefcfc;
+    color: #0f0f0f;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -153,11 +156,12 @@ footer {
     }
     .city-card {
         display: inline-block;
-        width: calc(20% - 20px); /* Ajuster la largeur en fonction du nombre de cartes */
-        margin: 10px;
-        background-color: #fff;
+        width:200px; /* Ajuster la largeur en fonction du nombre de cartes */
+        height: 300px;
+        margin: 20px;
+        background-color: #f0f0f0ff;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         transition: transform 0.3s ease-in-out;
     }
@@ -168,24 +172,29 @@ footer {
     }
 
     .city-card img {
-        width: 100%;
-        height: auto;
+        width: 200px;
+        height: 350px;
         border-radius: 10px 10px 0 0; /* Coins arrondis seulement en haut */
     }
 
     .city-card h2 {
         font-family: 'Libre Baskerville', serif;
         padding: 20px 10px;
-        margin: 0;
-        font-size: 24px;
+        margin: 10px;
+        font-size: 35px;
         text-align: center;
-        color: #333;
+        color: #0e0d0d;
+        
+    }
+    .img{
+        width: 300px;
+        height: 480px;
     }
 
     /* Styles pour le footer */
     footer {
-        background-color: #333;
-        color: #fff;
+        background-color: #221f1f;
+        color: #f9f7f7;
         text-align: center;
         padding: 10px; /* Réduire la taille du padding */
         transition: transform 0.3s ease-in-out; /* Ajout de la transition */
